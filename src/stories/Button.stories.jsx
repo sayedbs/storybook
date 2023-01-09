@@ -8,6 +8,7 @@ export default {
     component: Button,
     // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
     argTypes: {
+        onClick: { action: true },
         backgroundColor: { control: "color" },
     },
 };
@@ -32,6 +33,9 @@ Primary.parameters = {
 export const Secondary = Template.bind({});
 Secondary.args = {
     label: "Button",
+    argTypes: {
+        onClick: { action: "clicked 2" },
+    },
 };
 
 Secondary.parameters = {
