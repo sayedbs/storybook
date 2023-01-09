@@ -12,6 +12,7 @@ module.exports = {
         "@storybook/addon-a11y",
         "@storybook/addon-storysource",
         "storybook-addon-designs",
+        "storybook-jira-addon"
     ],
     framework: "@storybook/react",
     core: {
